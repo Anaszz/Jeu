@@ -46,22 +46,14 @@
     <Compile Include="Battle.cs" />
     <Compile Include="Boss.cs" />
     <Compile Include="Case.cs" />
-    <Compile Include="Case1.cs" />
-    <Compile Include="Equipment.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="Herorpg.cs" />
-    <Compile Include="Mage.cs" />
     <Compile Include="MainCharacter.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="Menu.cs" />
-    <Compile Include="Menu1.cs" />
     <Compile Include="Monstre.cs" />
-    <Compile Include="patron.cs" />
     <Compile Include="Character.cs" />
-    <Compile Include="potion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="salaire.cs" />
     <Compile Include="Print.cs" />
   </ItemGroup>
   <ItemGroup>

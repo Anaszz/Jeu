@@ -28,7 +28,7 @@ namespace ConsoleApp1
             Longueur = longueur;
             Plateau = new Case[largeur, longueur];
             Position = new Case[largeur, longueur];
-            truc(c);
+            truc();
 
            
          }
@@ -37,7 +37,7 @@ namespace ConsoleApp1
 
 
 
-        public void truc(MainCharacter chara)
+        public void truc()
         {
             for (int i = 0; i < Largeur; i++)
             {
@@ -45,11 +45,11 @@ namespace ConsoleApp1
                 for (int j = 0; j < Longueur; j++)
                 {
 
-                    if (i == chara.PosX && j == chara.PosY)
-                    {
-                        Console.WriteLine(chara.Nom);
-                    }
-                    Console.Write("■ ");
+                    //if (i == chara.PosX && j == chara.PosY)
+                    //{
+                    //    Console.WriteLine(chara.Nom);
+                    //}
+                    //Console.Write("■ ");
 
                 }
 

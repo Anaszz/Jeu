@@ -16,6 +16,7 @@ namespace ConsoleApp1
         Boss boss;
         Battle battle;
         Menu menu;
+        Map map;
 
 
         public Game()
@@ -24,9 +25,10 @@ namespace ConsoleApp1
             chara = new MainCharacter("", 12, 2, 1, 1);
             Menu.PrintMenu();
             StartGame();
-            //boss = new Boss("Petit chat maladroit", 18, 1);
-            //Battle(boss, chara);
-
+            boss = new Boss("Petit chat maladroit", 18, 1);
+            Battle(boss, chara);
+            Map map = new Map(10, 15);
+            Deplacement();
         }
 
         public void StartGame()
@@ -41,12 +43,12 @@ namespace ConsoleApp1
         {
             //PrintChoix();
             
-            //int choix = Menu.AskChoice(0, 4);
-            //TODO RECUPERER LA CASE
-            // TODO Tester le contenu de la case
-            //TODO Peut être lancer un combat...
+                //int choix = Menu.AskChoice(0, 4);
+                //TODO RECUPERER LA CASE
+                // TODO Tester le contenu de la case
+                //TODO Peut être lancer un combat...
+            
         }
-
 
         public void Battle(Boss b, MainCharacter m)
         {

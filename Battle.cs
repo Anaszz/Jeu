@@ -197,10 +197,10 @@ namespace ConsoleApp1
                 Print.Combat11();
                 Print.Combat12(boss.Nom, boss.Life);
             }
-            boss.Power += 1;
+            boss.Power += 5;
             chara.Damage(boss.Power);
-            Print.negoc(boss.Nom, boss.Power);
-            boss.Power -= 1;
+            Print.negoc2(boss.Nom, boss.Power);
+            boss.Power -= 5;
 
         }
 

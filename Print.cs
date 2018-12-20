@@ -321,6 +321,14 @@ Vous décidez de lui laisser une autre chance, mais votre précieux matériel ne
             Console.WriteLine(@"              
 Aie !! Votre moral en prends un coup ! " + nom2 + " perd [-" + power + " PV]");
         }
+        public static void negoc2(string boss, int power)
+        {
+            Console.WriteLine(@"         
+" + boss.ToUpper() + " veut votre mort.");
+
+            Console.WriteLine(@"         
+Vous décidez de le raisonner, mais il est déjà trop tard. Votre moral en prend un coup violent. COUP CRITIQUE !!! [-" + power + " PV]");
+        }
     }
 
 
